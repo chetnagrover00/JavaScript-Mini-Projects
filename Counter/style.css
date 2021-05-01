@@ -1,0 +1,41 @@
+body {
+    
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 10px;
+    line-height: 1;
+    font-size: 44px;
+    text-align: center;
+    color: black;
+    font-family: acme;
+    text-shadow: 2px 2px white;
+}
+
+footer {
+    font-family: acme;
+    text-align: center;
+    color: black;
+    font-size: large;
+    text-shadow: 1px 0px white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-heart {
+    color: red;
+}
+.fa-linkedin{
+	color: #3dabff;
+}
