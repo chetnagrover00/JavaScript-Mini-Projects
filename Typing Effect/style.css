@@ -1,0 +1,56 @@
+        body {
+            background-color: black;
+        }
+        
+        a {
+            color: #ff36da;
+            text-decoration: none;
+        }
+        
+        .fa-heart {
+            color: red;
+        }
+        
+        .type-container {
+            position: relative;
+            font-size: 1.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #line {
+            margin-top: 8%;
+            position: relative;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Acme;
+            color: #00ffea;
+            text-shadow: 3px 3px black;
+            text-align: center;
+        }
+        
+        .cursor {
+            height: 2rem;
+            width: 2px;
+            margin-left: 2px;
+            animation: blinkTextCursor 800ms infinite;
+        }
+        
+        @keyframes blinkTextCursor {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+        
+        footer {
+            font-family: acme;
+            color: white;
+            text-shadow: 1px 1px black;
+            margin-top: 80px;
+            text-align: center;
+            font-size: large;
+        }
