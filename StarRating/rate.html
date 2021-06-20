@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RATING MOVIES</title>
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="rate.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="form-group">
+    <select id="movie-select" class="form-control custom-select">
+        <option value="0" disabled selected>Select Movie</option>
+        <option value="dil">Dil bechara</option>
+        <option value="angrezi">Angrezi medium</option>
+        <option value="bala">Bala</option>
+        <option value="money">Money heist</option>
+        <option value="harry">Harry potter</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>MOVIES</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="dil">
+        <td>Dil Bechara</td>
+        <td>
+          <div class="stars-outer">
+            <div class="stars-inner"></div>
+          </div>
+          <span class="number-rating"></span>
+        </td>
+      </tr>
+      <tr class="angrezi">
+        <td>Angrezi Medium</td>
+        <td>
+          <div class="stars-outer">
+            <div class="stars-inner"></div>
+          </div>
+          <span class="number-rating"></span>
+        </td>
+      </tr>
+      <tr class="bala">
+        <td>Bala</td>
+        <td>
+          <div class="stars-outer">
+            <div class="stars-inner"></div>
+          </div>
+          <span class="number-rating"></span>
+        </td>
+      </tr>
+      <tr class="money">
+        <td>Money Heist</td>
+        <td>
+          <div class="stars-outer">
+            <div class="stars-inner"></div>
+          </div>
+          <span class="number-rating"></span>
+        </td>
+      </tr>
+      <tr class="harry">
+        <td>Harry Potter</td>
+        <td>
+          <div class="stars-outer">
+            <div class="stars-inner"></div>
+          </div>
+          <span class="number-rating"></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script src="rate.js"></script>
+</body>
+</html>
